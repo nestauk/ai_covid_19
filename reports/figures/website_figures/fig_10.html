@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+<div class="vega-visualization" id="vega-visualization-eac395920d3a40b4ba507a0219e39772"></div>
+<script type="text/javascript">
+  const spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "bar", "width": 9}, "encoding": {"x": {"type": "nominal", "field": "index", "sort": {"field": "citation_overlap", "order": "descending"}}, "y": {"type": "quantitative", "field": "citation_overlap"}}}, {"mark": {"type": "rule", "color": "red", "strokeDash": [1, 1]}, "encoding": {"y": {"type": "quantitative", "field": "mean", "title": ["% reference overlap", "between AI and non-AI papers"]}}, "transform": [{"calculate": "3.7", "as": "mean"}]}], "data": {"name": "data-5bf7b7426a7a10d89ad3e594ea0cb202"}, "height": 200, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-5bf7b7426a7a10d89ad3e594ea0cb202": [{"index": "Cluster 18", "citation_overlap": 8.12720848056537}, {"index": "Cluster 4", "citation_overlap": 6.3120567375886525}, {"index": "Cluster 25", "citation_overlap": 5.2434456928838955}, {"index": "Cluster 12", "citation_overlap": 2.9445506692160612}, {"index": "Cluster 5", "citation_overlap": 2.8907563025210083}, {"index": "Cluster 16", "citation_overlap": 2.7472527472527473}, {"index": "Cluster 14", "citation_overlap": 2.5297619047619047}, {"index": "Cluster 28", "citation_overlap": 2.254283137962128}, {"index": "Cluster 2", "citation_overlap": 2.1337126600284493}, {"index": "Cluster 19", "citation_overlap": 1.932367149758454}, {"index": "Cluster 8", "citation_overlap": 1.2024048096192386}, {"index": "Cluster 0", "citation_overlap": 1.0739856801909309}, {"index": "Cluster 11", "citation_overlap": 0.9987515605493134}, {"index": "Cluster 26", "citation_overlap": 0.9433962264150944}, {"index": "Cluster 17", "citation_overlap": 0.8849557522123894}, {"index": "Cluster 15", "citation_overlap": 0.76103500761035}, {"index": "Cluster 21", "citation_overlap": 0.7009345794392523}, {"index": "Cluster 1", "citation_overlap": 0.5932762030323006}, {"index": "Cluster 10", "citation_overlap": 0.5622489959839357}, {"index": "Cluster 20", "citation_overlap": 0.4225352112676056}, {"index": "Cluster 6", "citation_overlap": 0.0}, {"index": "Cluster 29", "citation_overlap": 0.0}, {"index": "Cluster 30", "citation_overlap": 0.0}, {"index": "Cluster 24", "citation_overlap": 0.0}, {"index": "Cluster 27", "citation_overlap": 0.0}, {"index": "Cluster 23", "citation_overlap": 0.0}, {"index": "Cluster 22", "citation_overlap": 0.0}, {"index": "Cluster 3", "citation_overlap": null}, {"index": "Cluster 13", "citation_overlap": null}, {"index": "Cluster 7", "citation_overlap": null}, {"index": "Cluster 9", "citation_overlap": null}]}};
+  const embedOpt = {};
+  vegaEmbed('#vega-visualization-eac395920d3a40b4ba507a0219e39772', spec, embedOpt).catch(console.error);
+</script>
+</body>
+</html>

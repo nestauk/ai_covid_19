@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+<div class="vega-visualization" id="vega-visualization-4cdb7877cbd3433baa545020d8a03d2d"></div>
+<script type="text/javascript">
+  const spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-08ca483c1518d7d29ec058d9c049cb23"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "is_ai", "title": "Paper category"}, "order": {"type": "nominal", "field": "is_ai", "sort": "ascending"}, "tooltip": [{"type": "nominal", "field": "value_label"}], "x": {"type": "quantitative", "field": "value", "title": "% of all papers in category"}, "y": {"type": "nominal", "field": "is_covid", "title": ""}}, "transform": [{"calculate": "(100 * datum.value)", "as": "value"}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-08ca483c1518d7d29ec058d9c049cb23": [{"is_covid": "Not COVID_19", "is_ai": "Not AI", "value": 0.8750502895458702, "value_label": "87.51%"}, {"is_covid": "COVID_19", "is_ai": "Not AI", "value": 0.9287738522576988, "value_label": "92.88%"}, {"is_covid": "Not COVID_19", "is_ai": "AI", "value": 0.12494971045412984, "value_label": "12.49%"}, {"is_covid": "COVID_19", "is_ai": "AI", "value": 0.07122614774230115, "value_label": "7.12%"}]}};
+  const embedOpt = {};
+  vegaEmbed('#vega-visualization-4cdb7877cbd3433baa545020d8a03d2d', spec, embedOpt).catch(console.error);
+</script>
+</body>
+</html>

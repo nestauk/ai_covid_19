@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+<div class="vega-visualization" id="vega-visualization-a1fdd90cfb784f71bf2d287a0fd2fe30"></div>
+<script type="text/javascript">
+  const spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-02af770d883b45bfb9519c5a0c750352"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "index", "title": "Source"}, "tooltip": [{"type": "nominal", "field": "index"}, {"type": "nominal", "field": "value_label"}], "x": {"type": "quantitative", "field": "value", "title": "% of papers in category"}, "y": {"type": "nominal", "field": "variable", "title": "Category"}}, "height": 100, "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-02af770d883b45bfb9519c5a0c750352": [{"index": "medrXiv", "variable": "COVID-19", "value": 62.40882737983916, "value_label": "62.41%"}, {"index": "arXiv", "variable": "COVID-19", "value": 20.759304282775386, "value_label": "20.76%"}, {"index": "biorXiv", "variable": "COVID-19", "value": 16.83186833738545, "value_label": "16.83%"}, {"index": "medrXiv", "variable": "AI", "value": 0.6975654618334519, "value_label": "0.7%"}, {"index": "arXiv", "variable": "AI", "value": 92.5783893525829, "value_label": "92.58%"}, {"index": "biorXiv", "variable": "AI", "value": 6.724045185583647, "value_label": "6.72%"}, {"index": "medrXiv", "variable": "AI and COVID-19", "value": 40.89709762532981, "value_label": "40.9%"}, {"index": "arXiv", "variable": "AI and COVID-19", "value": 49.6042216358839, "value_label": "49.6%"}, {"index": "biorXiv", "variable": "AI and COVID-19", "value": 9.498680738786279, "value_label": "9.5%"}]}};
+  const embedOpt = {};
+  vegaEmbed('#vega-visualization-a1fdd90cfb784f71bf2d287a0fd2fe30', spec, embedOpt).catch(console.error);
+</script>
+</body>
+</html>
