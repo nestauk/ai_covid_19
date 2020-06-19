@@ -1,0 +1,8 @@
+keywords:
+    covid_19: ['SARS-CoV-2', 'COVID-19', 'coronavirus']
+    ai: ['optimization_algorithm', 'convolutional_neural', 'automatic_detection', 'transfer_learning', 'semi_supervised', 'dnn', 'pre_trained', 'artificial_intelligence', 'natural_language', 'deep_learning', 'machine_learning', 'training_dataset', 'covid_net', 'classification', 'cnn', 'learning_based', 'deep_neural', 'neural_network', 'feature_extraction', 'deep_convolutional', 'supervised_learning', 'machine_learning_based', 'computational_intelligence', 'machine_intelligence']
+
+tfidf:
+    max_features: 120000
+
+fig_files: ['23134223','23134358','23134457','23134772']
