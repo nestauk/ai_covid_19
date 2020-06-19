@@ -4,3 +4,5 @@ keywords:
 
 tfidf:
     max_features: 120000
+
+fig_files: ['23134223','23134358','23134457','23134772']
