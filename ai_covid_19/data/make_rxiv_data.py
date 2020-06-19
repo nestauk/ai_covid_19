@@ -3,16 +3,16 @@
 #If you don't have access to this, follow the instructions in the README
 
 import logging
-from dotenv import load_dotenv,find_dotenv
 import os
-from data_getters.core import get_engine
 import pandas as pd
 import numpy as np
-from cord19.transformers.nlp import clean_and_tokenize
+from dotenv import load_dotenv,find_dotenv
+from data_getters.core import get_engine
+from ai_covid_19.transformers.nlp import clean_and_tokenize
 from gensim.models.phrases import Phrases, Phraser
 
 #Directories etc
-project_dir = cord19.project_dir
+project_dir = ai_covid_19.project_dir
 DATA_PATH  = project_dir+'/data/processed'
 
 load_dotenv(find_dotenv())

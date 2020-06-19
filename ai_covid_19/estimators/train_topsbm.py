@@ -11,12 +11,12 @@ import gensim
 import pickle
 from toolz.curried import *
 
-import cord19
-from cord19.hSBM_Topicmodel.sbmtm import sbmtm
-from cord19.transformers.nlp import *
+import ai_covid_19
+from ai_covid_19.hSBM_Topicmodel.sbmtm import sbmtm
+from ai_covid_19.transformers.nlp import *
 
 ## Paths
-project_dir = cord19.project_dir
+project_dir = ai_covid_19.project_dir
 DATA_PATH = f"{project_dir}/data/processed/"
 
 #####

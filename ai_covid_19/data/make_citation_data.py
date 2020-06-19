@@ -10,7 +10,7 @@ import numpy as np
 import scipy as sp
 import pandas as pd
 
-import cord19
+import ai_covid_19
 from nesta.packages.mag.query_mag_api import build_expr
 from nesta.packages.mag.query_mag_api import query_mag_api
 
