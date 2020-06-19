@@ -13,9 +13,9 @@ dependencies:
   - ipython
   - altair
   - gensim
-  - jupyter-lab
+  - jupyterlab
   - nltk
-  - sklearn
+  - scikit-learn
   - toolz
   # Put any conda dependencies here
 
