@@ -15,9 +15,11 @@ This code contains scripts and notebooks to:
 `conda env create -f conda_environment.yaml`
 
 2. Install scripts as a package:
+
 `pip install -e .`
 
 3. If you have access to Nesta DAPS and are planning to collect data from there, install the `data_getters` package:
+
 `pip install -r nesta_packages.txt`
 
 You may need to `pip install tornado --upgrade` after.
@@ -32,6 +34,7 @@ The downloaded files also include data dictionaries.
 You can make a new dataset with (probably updated data) by running:
 
 `python ai_covid_19/make_rxiv_data.py`
+
 `python ai_covid_19/make_citation_data.py`
 
 And train a new hierarchical topic model by running
@@ -43,7 +46,7 @@ And train a new hierarchical topic model by running
 ### Analysis
 Each notebooks in the `notebooks/ai-c19` folder refers to a section in the report.
 
-You can re-run them individually. All visual outputs will be saved as html files in the `report/figures/nesta_report_figures` folder.
+You can re-run them individually. All visual outputs will be saved as html files in `report/figures/nesta_report_figures`.
 
 --------
 
