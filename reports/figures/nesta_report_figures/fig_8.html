@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-392efcbe01eac4758c414fc0d1b2490a"}, "mark": {"type": "bar", "opacity": 0.5, "stroke": "black"}, "encoding": {"color": {"type": "nominal", "field": "Category"}, "tooltip": [{"type": "nominal", "field": "Category"}, {"type": "nominal", "field": "level_1"}, {"type": "nominal", "field": "value_label"}], "x": {"type": "quantitative", "field": "fos_cited_l0", "stack": null, "title": ["% of citations by papers", "in category"]}, "y": {"type": "nominal", "field": "level_1", "sort": {"field": "fos_cited_l0", "op": "sum", "order": "descending"}, "title": "Field of Study"}}, "height": 300, "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-392efcbe01eac4758c414fc0d1b2490a": [{"is_ai": false, "level_1": "Medicine", "fos_cited_l0": 39.52222288332243, "Category": "Not AI", "value_label": "39.52%"}, {"is_ai": false, "level_1": "Biology", "fos_cited_l0": 31.828999821502947, "Category": "Not AI", "value_label": "31.83%"}, {"is_ai": false, "level_1": "Computer science", "fos_cited_l0": 8.55893377759267, "Category": "Not AI", "value_label": "8.56%"}, {"is_ai": false, "level_1": "Mathematics", "fos_cited_l0": 6.351520199916702, "Category": "Not AI", "value_label": "6.35%"}, {"is_ai": false, "level_1": "Geography", "fos_cited_l0": 3.543166537752127, "Category": "Not AI", "value_label": "3.54%"}, {"is_ai": false, "level_1": "Chemistry", "fos_cited_l0": 3.031474980662819, "Category": "Not AI", "value_label": "3.03%"}, {"is_ai": false, "level_1": "Psychology", "fos_cited_l0": 1.838519664425537, "Category": "Not AI", "value_label": "1.84%"}, {"is_ai": false, "level_1": "Economics", "fos_cited_l0": 1.4279764383887665, "Category": "Not AI", "value_label": "1.43%"}, {"is_ai": false, "level_1": "Physics", "fos_cited_l0": 1.2167549235437616, "Category": "Not AI", "value_label": "1.22%"}, {"is_ai": false, "level_1": "Engineering", "fos_cited_l0": 0.5652406735288867, "Category": "Not AI", "value_label": "0.57%"}, {"is_ai": false, "level_1": "Sociology", "fos_cited_l0": 0.5503659189623371, "Category": "Not AI", "value_label": "0.55%"}, {"is_ai": false, "level_1": "Business", "fos_cited_l0": 0.45219253882310945, "Category": "Not AI", "value_label": "0.45%"}, {"is_ai": false, "level_1": "Political science", "fos_cited_l0": 0.38971856964360085, "Category": "Not AI", "value_label": "0.39%"}, {"is_ai": false, "level_1": "History", "fos_cited_l0": 0.19039685845183554, "Category": "Not AI", "value_label": "0.19%"}, {"is_ai": false, "level_1": "Environmental science", "fos_cited_l0": 0.17849705479859582, "Category": "Not AI", "value_label": "0.18%"}, {"is_ai": false, "level_1": "Materials science", "fos_cited_l0": 0.17849705479859582, "Category": "Not AI", "value_label": "0.18%"}, {"is_ai": false, "level_1": "Geology", "fos_cited_l0": 0.13089784018563694, "Category": "Not AI", "value_label": "0.13%"}, {"is_ai": false, "level_1": "Philosophy", "fos_cited_l0": 0.026774558219789375, "Category": "Not AI", "value_label": "0.03%"}, {"is_ai": false, "level_1": "Art", "fos_cited_l0": 0.017849705479859583, "Category": "Not AI", "value_label": "0.02%"}, {"is_ai": true, "level_1": "Computer science", "fos_cited_l0": 44.899521531100476, "Category": "AI", "value_label": "44.9%"}, {"is_ai": true, "level_1": "Medicine", "fos_cited_l0": 25.837320574162682, "Category": "AI", "value_label": "25.84%"}, {"is_ai": true, "level_1": "Biology", "fos_cited_l0": 11.69377990430622, "Category": "AI", "value_label": "11.69%"}, {"is_ai": true, "level_1": "Mathematics", "fos_cited_l0": 7.559808612440191, "Category": "AI", "value_label": "7.56%"}, {"is_ai": true, "level_1": "Chemistry", "fos_cited_l0": 2.430622009569378, "Category": "AI", "value_label": "2.43%"}, {"is_ai": true, "level_1": "Engineering", "fos_cited_l0": 2.047846889952153, "Category": "AI", "value_label": "2.05%"}, {"is_ai": true, "level_1": "Geography", "fos_cited_l0": 1.7416267942583732, "Category": "AI", "value_label": "1.74%"}, {"is_ai": true, "level_1": "Psychology", "fos_cited_l0": 0.937799043062201, "Category": "AI", "value_label": "0.94%"}, {"is_ai": true, "level_1": "Economics", "fos_cited_l0": 0.7655502392344498, "Category": "AI", "value_label": "0.77%"}, {"is_ai": true, "level_1": "Physics", "fos_cited_l0": 0.5933014354066986, "Category": "AI", "value_label": "0.59%"}, {"is_ai": true, "level_1": "Sociology", "fos_cited_l0": 0.36363636363636365, "Category": "AI", "value_label": "0.36%"}, {"is_ai": true, "level_1": "Political science", "fos_cited_l0": 0.3253588516746412, "Category": "AI", "value_label": "0.33%"}, {"is_ai": true, "level_1": "Business", "fos_cited_l0": 0.22966507177033493, "Category": "AI", "value_label": "0.23%"}, {"is_ai": true, "level_1": "Materials science", "fos_cited_l0": 0.19138755980861244, "Category": "AI", "value_label": "0.19%"}, {"is_ai": true, "level_1": "Environmental science", "fos_cited_l0": 0.19138755980861244, "Category": "AI", "value_label": "0.19%"}, {"is_ai": true, "level_1": "Geology", "fos_cited_l0": 0.17224880382775118, "Category": "AI", "value_label": "0.17%"}, {"is_ai": true, "level_1": "History", "fos_cited_l0": 0.019138755980861243, "Category": "AI", "value_label": "0.02%"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

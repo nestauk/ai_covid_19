@@ -1,0 +1,171 @@
+,cluster,salient_topics,example_ai_papers,example_non_ai_papers
+0,cluster_0,"epidemic_peak_epidemics_mathematical_model_reproduction_number
+china_wuhan_february_january_chinese
+international_travel_australia_travel_restrictions_imported_cases","Neural Network aided quarantine control model estimation of global
+  Covid-19 spread
+A Data-Driven Network Model for the Emerging COVID-19 Epidemics in
+  Wuhan, Toronto and Italy","Infection Density and Epidemic Size of COVID-19 in China outside the Hubei province
+Preliminary estimation of the novel coronavirus disease (COVID-19) cases in Iran: a modelling analysis based on overseas cases and air travel data"
+1,cluster_1,"drugs_drug_therapeutic_replication_antiviral
+rbd_fusion_recombinant_neutralizing_antibodies_receptor_binding_domain_rbd
+protein_proteins_binding_spike_protein_structural","Identification of potential treatments for COVID-19 through artificial intelligence-enabled phenomic analysis of human cells infected with SARS-CoV-2
+Identification of potential treatments for COVID-19 through artificial intelligence-enabled phenomic analysis of human cells infected with SARS-CoV-2","Peptidoglycan associated cyclic lipopeptide disrupts viral infectivity
+The crystal structure of nsp10-nsp16 heterodimer from SARS CoV-2 in complex with S-adenosylmethionine"
+2,cluster_2,"susceptibility_variants_genetic_g_variant
+mutations_sequence_sequences_genome_strains
+prone_conjunctival_neurological_mt_ocular","Analysis of SARS-CoV-2 RNA-Sequences by Interpretable Machine Learning Models
+Origin of Novel Coronavirus (COVID-19): A Computational Biology Study using Artificial Intelligence","Regional differences in reported Covid-19 cases show genetic correlations with higher socio-economic status and better health, potentially confounding studies on the genetics of disease susceptibility
+A gene locus that controls expression of ACE2 in virus infection"
+3,cluster_3,"masks_mask_filter_respirators_n_respirators
+air_environmental_particles_aerosol_surfaces
+significantly_decreased_serves_forces_abstract_objective_could_attributed",,"Isothermal evaporation rate of deposited liquid aerosols and the
+  SARS-CoV-2 coronavirus survival
+Analysis of SteraMist ionized hydrogen peroxide technology as a method for sterilizing N95 respirators and other personal protective equipment"
+4,cluster_4,"classification_images_deep_learning_training_learning
+dataset_accuracy_datasets_techniques_machine_learning
+pneumonia_lung_features_normal_lungs","Diagnosing COVID-19 Pneumonia from X-Ray and CT Images using Deep
+  Learning and Transfer Learning Algorithms
+Deep Learning for Screening COVID-19 using Chest X-Ray Images","Firefly-Algorithm Supported Scheme to Detect COVID-19 Lesion in Lung CT
+  Scan Images using Shannon Entropy and Markov-Random-Field
+Radiologist-Level COVID-19 Detection Using CT Scans with Detail-Oriented
+  Capsule Networks"
+5,cluster_5,"sir_model_sir_mathematical_mathematical_models_time-dependent
+epidemic_peak_epidemics_mathematical_model_reproduction_number
+model_models_data-driven_compute","Artificial Intelligence Forecasting of Covid-19 in China
+SIRNet: Understanding Social Distancing Measures with Hybrid Neural
+  Network Model for COVID-19 Infectious Spread","Nonlinear Markov Chain Modelling of the Novel Coronavirus (Covid-19) Pandemic
+On the corona infection model with contact restriction"
+6,cluster_6,"efficiency_pooling_group_testing_pool_pools
+testing_tests_testing_capacity_interpreted_diagnostic_testing
+sampling_controls_base_combine_raises",Pooling RT-PCR or NGS samples has the potential to cost-effectively generate estimates of COVID-19 prevalence in resource limited environments,"Accelerated infection testing at scale: a proposal for inference with
+  single test on multiple patients
+A Compressed Sensing Approach to Group-testing for COVID-19 Detection"
+7,cluster_7,"china_wuhan_february_january_chinese
+secondary_incubation_period_symptom_onset_serial_interval_incubation
+days_day_duration_median_onset",A new design of an adaptive model of infectious diseases based on artificial intelligence approach: monitoring and forecasting of COVID-19 epidemic cases,"Estimation of the incubation period of SARS-CoV-2 in Vietnam
+Early Surveillance and Public Health Emergency Disposal Measures Between Novel Coronavirus Disease 2019 and Avian Influenza in China: A Case-Comparison Study"
+8,cluster_8,"china_wuhan_february_january_chinese
+counties_population_density_county_density_income
+epidemic_peak_epidemics_mathematical_model_reproduction_number","Predicting the epidemic trend of COVID-19 in China and across the world using the machine learning approach
+COVID-19 Asymptomatic Infection Estimation","Dynamic Estimation of Epidemiological Parameters of COVID-19 Outbreak and Effects of Interventions on Its Spread
+Population movement, city closure and spatial transmission of the 2019-nCoV infection in China"
+9,cluster_9,"et_al_determinants_raw_wastewater_concluded
+mutations_sequence_sequences_genome_strains
+sars-cov-",,"Whole genome and phylogenetic analysis of SARS-CoV-2 strains from the index and early patients with COVID-19 in Dubai, United Arab Emirates, 29 January to 18 March 2020
+SARS-CoV-2 RNA titers in wastewater anticipated COVID-19 occurrence in a low prevalence area"
+10,cluster_10,"herd_immunity_lock-down_non-pharmaceutical_interventions_second_wave_relaxation
+social_distancing_measures_lockdown_behavior_restrictions
+epidemic_peak_epidemics_mathematical_model_reproduction_number","COVID-19 Epidemic in Switzerland: Growth Prediction and Containment Strategy Using Artificial Intelligence and Big Data
+COVID-19 Epidemic in Switzerland: Growth Prediction and Containment Strategy Using Artificial Intelligence and Big Data","Inside the Mind of Investors During the COVID-19 Pandemic: Evidence from
+  the StockTwits Data
+Significant Relaxation of SARS-CoV-2-Targeted Non-Pharmaceutical Interventions Will Result in Profound Mortality: A New York State Modelling Study"
+11,cluster_11,"temperature_climate_weather_temperatures_seasonal
+pm_africa_lag_air_pollution_limits
+vaccination_coverage_bcg_vaccination_bcg_nations","COVID-19: Strategies for Allocation of Test Kits
+COVID-19: Strategies for Allocation of Test Kits","Parasites and their protection against COVID-19- Ecology or Immunology?
+Household transmission of COVID-19, Shenzhen, January-February 2020"
+12,cluster_12,"protein_proteins_binding_spike_protein_structural
+mutations_sequence_sequences_genome_strains
+species_evolutionary_zoonotic_bat_hosts","Host and infectivity prediction of Wuhan 2019 novel coronavirus using deep learning algorithm
+Mutations strengthened SARS-CoV-2 infectivity","Genomic variations of SARS-CoV-2 suggest multiple outbreak sources of transmission
+Origin time and epidemic dynamics of the 2019 novel coronavirus"
+13,cluster_13,"pressure_flow_ventilator_ventilation_ventilators
+guidelines_procedures_surgical_surgery_departments
+fluid_funded_stock_market_machines_ecmo",,"Face Coverings, Aerosol Dispersion and Mitigation of Virus Transmission
+  Risk
+A Nationwide Survey of UK cardiac surgeons view on clinical decision making during the COVID-19 pandemic"
+14,cluster_14,"inhibitors_compounds_mpro_hiv_protease
+drugs_drug_therapeutic_replication_antiviral
+chloroquine_dose_sarscov_administered_mg","Accelerating drug repurposing for COVID-19 via modeling drug mechanism
+  of action with large scale gene-expression profiles
+Potentially highly potent drugs for 2019-nCoV","Modelling SARS-CoV-2 Dynamics: Implications for Therapy
+Re-analysis of SARS-CoV-2 infected host cell proteomics time-course data by impact pathway analysis and network analysis. A potential link with inflammatory response."
+15,cluster_15,"ace_receptor_entry_tmprss_ace_expression
+cells_host_genes_expression_cell
+pathways_gene_expression_signaling_complement_interferon","Proteomic and Metabolomic Characterization of COVID-19 Patient Sera
+Computational analysis of microRNA-mediated interactions in SARS-CoV-2 infection","Exploring diseases/traits and blood proteins causally related to expression of ACE2, the putative receptor of 2019-nCov: A Mendelian Randomization analysis
+Type I and III interferons disrupt lung epithelial repair during recovery from viral infection"
+16,cluster_16,"social_media_twitter_tweets_topics_content
+users_location_applications_privacy_app
+dataset_accuracy_datasets_techniques_machine_learning","COVID-Twitter-BERT: A Natural Language Processing Model to Analyse
+  COVID-19 Content on Twitter
+Detecting fake news for the new coronavirus by reasoning on the Covid-19
+  ontology","TraceSecure: Towards Privacy Preserving Contact Tracing
+Health Communication Through News Media During the Early Stage of the COVID-19 Outbreak in China: A Digital Topic Modeling Approach"
+17,cluster_17,"mental_health_anxiety_stress_psychological_questionnaire
+survey_respondents_education_perceived_personal
+knowledge_students_preventive_measures_awareness_toward","Coronavirus Disease 2019 (COVID-19): An Evidence Map of Medical Literature
+The CoRisk-Index: A data-mining approach to identify industry-specific
+  risk assessments related to COVID-19 in real-time","Knowledge, attitude, practice and fear of COVID-19: A cross-cultural study
+Structure of anxiety associated with the COVID-19 pandemic in the Russian-speaking sample: results from on-line survey"
+18,cluster_18,"ct_pulmonary_imaging_chest_ct_abnormal
+auc_triage_calibration_low-risk_prediction_models
+classification_images_deep_learning_training_learning","AI-based multi-modal integration of clinical characteristics, lab tests and chest CTs improves COVID-19 outcome prediction of hospitalized patients
+Towards computer-aided severity assessment: training and validation of
+  deep neural networks for geographic extent and opacity extent scoring of
+  chest X-rays for SARS-CoV-2 lung disease severity","Validating a Widely Implemented Deterioration Index Model Among Hospitalized COVID-19 Patients
+A globally available COVID-19 - Template for clinical imaging studies"
+19,cluster_19,"team_bangladesh_remote_layer_virtual
+events_threat_political_focusing_dissemination
+dataset_accuracy_datasets_techniques_machine_learning","Deep Learning System to Screen Coronavirus Disease 2019 Pneumonia
+Independent Component Analysis for Trustworthy Cyberspace during High
+  Impact Events: An Application to Covid-19","Assessing the Potential Impact of COVID-19 in Brazil: Mobility, Morbidity and the Burden on the Health Care System
+Would India Really Touch the Peak of SARS COVID 19 Cases or Deaths in Near Future"
+20,cluster_20,"number_daily_expected_numbers_trend
+epidemic_peak_epidemics_mathematical_model_reproduction_number
+india_rise_indian_active_cases_june","On the estimation of the total number of SARS-CoV-2 infections
+Predicting the COVID-19 positive cases in India with concern to Lockdown by using Mathematical and Machine Learning based Models","SARS-CoV-2 infection in London, England: Impact of lockdown on community point-prevalence, March-May 2020
+Universal Masking is Urgent in the COVID-19 Pandemic: SEIR and Agent
+  Based Models, Empirical Validation, Policy Recommendations"
+21,cluster_21,"cfr_case_fatality_rate_across_countries_case_fatality_rates_lethality
+prevalence_burden_general_population_practice_elderly
+deaths_death_rates_projected_death_rate_weekly",News from the front: Excess mortality and life expectancy in two major epicentres of the COVID-19 pandemic in Italy,"The Longevity-Frailty Hypothesis: Evidence from COVID-19 Death Rates in Europe
+Monitoring trends and differences in COVID-19 case fatality rates using decomposition methods: Contributions of age structure and age-specific fatality"
+22,cluster_22,"children_adults_adult_pediatric_supportive
+prone_conjunctival_neurological_mt_ocular
+patients_enrolled_one_patient","Incidence of COVID-19 in a cohort of adult and paediatric patients with rheumatic diseases treated with targeted biologic and synthetic disease-modifying anti-rheumatic drugs
+Incidence of COVID-19 in a cohort of adult and paediatric patients with rheumatic diseases treated with targeted biologic and synthetic disease-modifying anti-rheumatic drugs","No SARS-CoV-2 carriage observed in children attending daycare centers during the first weeks of the epidemic in Belgium.
+A Territory-Wide Study of COVID-19 Cases and Clusters with Unknown Source in Hong Kong Community: A Clinical, Epidemiological and Phylogenomic Investigation"
+23,cluster_23,"de_always_ncovid-_qtc_gradient
+clinical_trials_hydroxychloroquine_trials_remdesivir_hcq
+chloroquine_dose_sarscov_administered_mg","Ocular toxicity and Hydroxychloroquine: A Rapid Meta-Analysis
+Ocular toxicity and Hydroxychloroquine: A Rapid Meta-Analysis","Plasma concentration and safety of lopinavir/ritonavir in patients with Covid-19: a retrospective cohort study
+Crucial Inflammatory Mediators and Efficacy of Drug Interventions in
+  Pneumonia Inflated COVID-19: An Invivo Mathematical Modelling Study"
+24,cluster_24,"household_members_close_contacts_school_closures_attack_rate
+conduct_doctors_allocation_registration_cover
+residents_percent_physicians_descriptive_programs","On the Generation of Medical Dialogues for COVID19
+On the Generation of Medical Dialogues for COVID-19","Geo temporal distribution of 1,688 Chinese healthcare workers infected with COVID-19 in severe conditions, a secondary data analysis
+Correlation analysis of risk factors and GSI score of a medical team assisting Wuhan city during the epidemic of COVID-19 in China -A cohort study"
+25,cluster_25,"specimens_viral_load_swabs_collection_swab
+antibodies_antibody_igg_igm_sera
+diagnosis_rt-pcr_diagnostic_suspected_sensitivity_specificity","Coswara -- A Database of Breathing, Cough, and Voice Sounds for COVID-19
+  Diagnosis
+Weakly Supervised Deep Learning for COVID-19 Infection Detection and
+  Classification from CT Images","Assessment of a serological diagnostic kit of sars-cov-2 availble in Iran
+Analysis and Prediction of False Negative Results for SARS-CoV-2 Detection with Pharyngeal Swab Specimen in COVID-19 Patients: A Retrospective Study"
+26,cluster_26,"assay_assays_rt-qpcr_dna_diagnostics
+antibodies_antibody_igg_igm_sera
+detection_sensitivity_detect_detecting_sensitive","Interpretable detection of novel human viruses from genome sequencing data
+Serological signatures of SARS-CoV-2 infection: Implications for antibody-based diagnostics","A SIMPLE COLORIMETRIC MOLECULAR DETECTION OF NOVEL CORONAVIRUS (COVID-19), AN ESSENTIAL DIAGNOSTIC TOOL FOR PANDEMIC SCREENING
+Capsid integrity quantitative PCR to determine virus infectivity in environmental and food applications; a systematic review"
+27,cluster_27,"women_pregnant_women_pregnancy_delivery_adverse
+kidney_nasal_olfactory_route_respiratory_tract
+patients_enrolled_one_patient","Augmented Curation of Unstructured Clinical Notes from a Massive EHR System Reveals Specific Phenotypic Signature of Impending COVID-19 Diagnosis
+Predicting Mortality Risk in Viral and Unspecified Pneumonia to Assist
+  Clinicians with COVID-19 ECMO Planning","Breastfeeding of Infants Born to Mothers with COVID-19: A Rapid Review
+Maternal and neonatal outcomes of pregnant women with COVID-19 pneumonia: a case-control study"
+28,cluster_28,"prognosis_d-dimer_crp_markers_lymphocytes
+patients_enrolled_one_patient
+admission_hospitalization_hospitalized_survival_died","Epidemiological and clinical features of 291 cases with coronavirus disease 2019 in areas adjacent to Hubei, China: a double-center observational study
+Clinical efficacy of intravenous immunoglobulin therapy in critical patients with COVID-19: A multicenter retrospective cohort study","Myocardial injury is associated with in-hospital mortality of confirmed or suspected COVID-19 in Wuhan, China: A single center retrospective cohort study
+Alpha-1 adrenergic receptor antagonists for preventing acute respiratory
+  distress syndrome and death from cytokine storm syndrome"
+29,cluster_29,"admission_hospitalization_hospitalized_survival_died
+risk_factors_comorbidities_males_diabetes_smoking
+patients_enrolled_one_patient",CLINICAL CHARACTERISTICS AND PROGNOSTIC FACTORS FOR ICU ADMISSION OF PATIENTS WITH COVID-19 USING MACHINE LEARNING AND NATURAL LANGUAGE PROCESSING,"Early estimation of the risk factors for hospitalisation and mortality by COVID-19 in Mexico
+SARS-CoV-2 lethality decreased over time in two Italian Provinces"
+30,cluster_30,"healthcare_workers_hcws_workers_working_ppe
+care_services_inpatient_diagnoses_mexico
+antibodies_antibody_igg_igm_sera",Estimating the burden of United States workers exposed to infection or disease: a key factor in containing risk of COVID-19 infection,"ESTIMATING COVID-19 INFECTIONS IN HOSPITAL WORKERS IN THE UNITED STATES
+Prevalence of SARS-CoV-2 infection in previously undiagnosed health care workers at the onset of the U.S. COVID-19 epidemic"
