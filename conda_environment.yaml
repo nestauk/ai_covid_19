@@ -11,6 +11,12 @@ dependencies:
   - matplotlib
   - jupyter
   - ipython
+  - altair
+  - gensim
+  - jupyterlab
+  - nltk
+  - scikit-learn
+  - toolz
   # Put any conda dependencies here
 
   - pip:

@@ -48,3 +48,7 @@ import matplotlib.pyplot as plt
 # project directory e.g. `/home/user/GIT/nesta`
 project_dir = ai_covid_19.project_dir
 data_path = f'{project_dir}/data'
+fig_path = f'{project_dir}/reports/figures/nesta_report_figures'
+
+#Ignore errors
+pd.options.mode.chained_assignment = None
