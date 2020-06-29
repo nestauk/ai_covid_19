@@ -24,7 +24,7 @@ This code contains scripts and notebooks to:
 
 You may need to `pip install tornado --upgrade` after.
 
-### Collect data
+### Collect data for Nesta report
 You can collect the processed data we used in the AI-C19 report from [figshare](https://figshare.com/articles/Artificial_Intelligence_and_the_Fight_Against_COVID-19/12479570) by running:
 
 `python ai_covid_19/fetch_dataset.py`
@@ -42,6 +42,12 @@ And train a new hierarchical topic model by running
 `python ai_covid_19/train_topsbm.py`
 
 **Note:** This requires putting your credentials in a `.env` file that will be read by the relevant scripts
+
+### Additional data collection for MoHG paper
+
+You can download the previous day's update of the [CORD-19](https://www.semanticscholar.org/cord19/download) data by running
+
+`python ai_covid_19/data/fetch_cord19.py`
 
 ### Analysis
 Each notebooks in the `notebooks/ai-c19` folder refers to a section in the report.
