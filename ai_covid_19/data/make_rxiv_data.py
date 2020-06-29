@@ -10,14 +10,19 @@ from dotenv import load_dotenv,find_dotenv
 from data_getters.core import get_engine
 from ai_covid_19.transformers.nlp import clean_and_tokenize
 from gensim.models.phrases import Phrases, Phraser
+import ai_covid_19
 
 #Directories etc
 project_dir = ai_covid_19.project_dir
-DATA_PATH  = project_dir+'/data/processed'
+DATA_PATH  = os.path.join(project_dir,'data/processed')
 
 load_dotenv(find_dotenv())
 
 config_path = os.getenv('config_path')
+
+#Metadata
+covid_keywords = ai_covid_19.config["keywords"]["covid_19"]
+ml_keywords = ai_covid_19.config["keywords"]["ai"]
 
 #####
 #Read rXiv data
@@ -30,6 +35,8 @@ logging.info("Downloading data")
 chunks = pd.read_sql_table("arxiv_articles", con, chunksize=1000)
 papers = pd.concat(chunks)
 
+logging.info(len(papers))
+
 #Processing and new variables
 papers = papers.reset_index(drop=True)
 papers = papers.dropna(subset=["title", "abstract"])
@@ -41,8 +48,6 @@ papers["year"] = papers.created.apply(lambda x: x.year)
 
 logging.info("Finding Covid papers")
 
-covid_keywords = cord19.config["keywords"]["covid_19"]
-
 papers["is_covid"] = [
     1
     if any(term.lower() in row["abstract"].lower() for term in covid_keywords)
@@ -50,6 +55,8 @@ papers["is_covid"] = [
     else 0
     for idx, row in papers.iterrows()
 ]
+
+logging.info(papers['is_covid'].sum())
 
 #########
 # Label AI papers
@@ -64,15 +71,17 @@ trigram = Phrases(bigram[abstracts], min_count=5, threshold=3)
 abstracts_with_ngrams = list(trigram[abstracts])
 
 #The keywords were identified through a previous expanded search
-ml_keywords = cord19.config["keywords"]["ai"]
+
 papers["is_ai"] = [
     1 if any(k in tokens for k in ml_keywords) else 0
     for tokens in abstracts_with_ngrams
 ]
+
+logging.info(papers['is_ai'].sum())
 
 ###########
 # OUTPUTS
 ###########
 logging.info("Saving outputs")
 
-papers.to_csv(f"{DATA_PATH}/rxiv_papers.csv",index_label=False)
+papers.to_csv(f"{DATA_PATH}/rxiv_papers_update.csv",index_label=False)

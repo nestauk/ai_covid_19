@@ -17,6 +17,7 @@ dependencies:
   - nltk
   - scikit-learn
   - toolz
+  - graph-tool
   # Put any conda dependencies here
 
   - pip:
