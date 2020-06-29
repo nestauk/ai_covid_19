@@ -17,22 +17,22 @@ from ai_covid_19.transformers.nlp import *
 
 ## Paths
 project_dir = ai_covid_19.project_dir
-DATA_PATH = f"{project_dir}/data/processed/"
+DATA_PATH = f"{project_dir}/data/processed"
 
 #####
 #Read and process data
 #####
 logging.info("Reading data")
 
-xiv = pd.read_csv(f"{DATA_PATH}/xiv_papers.csv",
+xiv = pd.read_csv(f"{DATA_PATH}/rxiv_papers_update.csv",
                   dtype={'id':str})
-cov_ = xiv.query('is_covid == 1').reset_index(drop=False).pipe(preview)
+cov_ = xiv.query('is_covid == 1').reset_index(drop=False)
 
 #Extract AI ids
 ai_ids = set(cov_.query('is_ai == 1')['id'])
 logging.info(print(len(ai_ids)))
 
-#Drop papers without abstracts and with ver
+#Drop papers without abstracts and with very short abstracts
 cov_ = cov_.dropna(axis=0,subset=['abstract'])
 cov = cov_.loc[[len(x)>300 for x in cov_['abstract']]]
 cov.reset_index(drop=True,inplace=True)

@@ -5,13 +5,16 @@ from string import punctuation
 from string import digits
 import pandas as pd
 import numpy as np
+import nltk
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from gensim import corpora, models
+from nltk.corpus import stopwords
 from nltk.stem import *
 
 nltk.download("stopwords", quiet=True)
 nltk.download("punkt", quiet=True)
+stemmer = PorterStemmer()
 
 stop_words = set(
     stopwords.words("english") + list(string.punctuation) + ["\\n"] + ["quot"]
@@ -92,15 +95,6 @@ def tfidf_vectors(data, max_features):
 #Characters to drop
 drop_characters = re.sub('-','',punctuation)+digits
 
-#Stopwords
-from nltk.corpus import stopwords
-
-stop = stopwords.words('English')
-
-#Stem functions
-from nltk.stem import *
-stemmer = PorterStemmer()
-
 def clean_tokenise(string,drop_characters=drop_characters,stopwords=stop_words):
     '''
     Takes a string and cleans (makes lowercase and removes stopwords)
@@ -115,7 +109,7 @@ def clean_tokenise(string,drop_characters=drop_characters,stopwords=stop_words):
     
     
     #Remove stopwords
-    clean = [x for x in str_letters.split(' ') if (x not in stop) & (x!='')]
+    clean = [x for x in str_letters.split(' ') if (x not in stopwords) & (x!='')]
     
     return(clean)
 
@@ -141,12 +135,12 @@ class CleanTokenize():
         #Store
         self.corpus = corpus
         
-    def clean(self,drop=drop_characters,stopwords=stop):
+    def clean(self,drop=drop_characters,stopwords=stop_words):
         '''
         Removes strings and stopwords, 
         
         '''     
-        cleaned = [clean_tokenise(doc,drop_characters=drop,stopwords=stop) for doc in self.corpus]
+        cleaned = [clean_tokenise(doc,drop_characters=drop,stopwords=stopwords) for doc in self.corpus]
         
         self.tokenised = cleaned
         return(self)
