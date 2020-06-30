@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-e1fcff78f61fa7015403e8ea7e827cbc"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "index", "title": "Source"}, "tooltip": [{"type": "nominal", "field": "index"}, {"type": "nominal", "field": "value_label"}], "x": {"type": "quantitative", "field": "value", "title": "% of papers in category"}, "y": {"type": "nominal", "field": "variable", "title": "Category"}}, "height": 100, "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-e1fcff78f61fa7015403e8ea7e827cbc": [{"index": "medrXiv", "variable": "COVID-19", "value": 62.74567321795248, "value_label": "62.75%"}, {"index": "arXiv", "variable": "COVID-19", "value": 20.167204458785566, "value_label": "20.17%"}, {"index": "biorXiv", "variable": "COVID-19", "value": 17.08712232326195, "value_label": "17.09%"}, {"index": "medrXiv", "variable": "AI", "value": 0.8116311438297587, "value_label": "0.81%"}, {"index": "arXiv", "variable": "AI", "value": 92.4689349856623, "value_label": "92.47%"}, {"index": "biorXiv", "variable": "AI", "value": 6.71943387050794, "value_label": "6.72%"}, {"index": "medrXiv", "variable": "AI and COVID-19", "value": 41.73913043478261, "value_label": "41.74%"}, {"index": "arXiv", "variable": "AI and COVID-19", "value": 49.130434782608695, "value_label": "49.13%"}, {"index": "biorXiv", "variable": "AI and COVID-19", "value": 9.130434782608695, "value_label": "9.13%"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

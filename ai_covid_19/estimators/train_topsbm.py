@@ -14,6 +14,7 @@ from toolz.curried import *
 import ai_covid_19
 from ai_covid_19.hSBM_Topicmodel.sbmtm import sbmtm
 from ai_covid_19.transformers.nlp import *
+from ai_covid_19.estimators.post_process_topsbm import *
 
 ## Paths
 project_dir = ai_covid_19.project_dir
@@ -71,40 +72,21 @@ with open(f"{project_dir}/models/top_sbm/top_sbm.p",'wb') as outfile:
 ######
 logging.info("Post-processing data")
 
-#Extract the word mix (word components of each topic)
-word_mix = model.topics(l=0)
+#We use the previously defined function
+post = post_process_model(model,top_level=0,cl_level=1,top_thres=0.4)
 
-#Create tidier names
-topic_name_lookup = {key:'_'.join([x[0] for x in values[:5]]
-                                  ) for key,values in word_mix.items()}
-topic_names = list(topic_name_lookup.values())
-
-#Extract the topic mix df
-topic_mix_ = pd.DataFrame(model.get_groups(l=0)['p_tw_d'].T,
-                        columns=topic_names,index=list(cov['id']))
-
-#Remove highly uninformative / generic topics
-topic_prevalence = topic_mix_.applymap(lambda x: x>0
-                                       ).mean().sort_values(ascending=False)
-topic_prevalence.loc[topic_prevalence>0.4]
-filter_topics = topic_prevalence.index[topic_prevalence<0.4]
-topic_mix = topic_mix_[filter_topics]
-
-#Extract the clusters to which different documents belong (we force all documents 
-#to belong to a cluster)
-cluster_assigment = model.clusters(l=1,n=len(list(cov['id'])))
-cluster_sets = {c:set([x[0] for x in papers]) for c,papers in cluster_assigment.items()}
-
-#Assign topics to their clusters
-topic_mix['cluster'] = [
-[f'cluster_{n}' for n,v in cluster_sets.items() if x in v][0] for x in topic_mix.index]
+topics = post[0].reset_index(drop=False
+                                       ).melt(id_vars=['index','cluster'],var_name='topic',value_name='weight'
+                                       ).rename(columns={'index':'article_id'}
+                                       )
+topics['is_ai'] = topics['article_id'].isin(ai_ids)
 
 ######
 #Save outputs
 ######
 logging.info("Saving data")
 topic_mix_long = topic_mix.reset_index(drop=False
-                                       ).melt(id_vars=['index','cluster']
+                                       ).melt(id_vars=['index','cluster','is_ai']
                                        ).rename(columns={'index':'article_id'}
                                        )
 

@@ -1,0 +1,158 @@
+,cluster,salient_topics,example_ai_papers,example_non_ai_papers
+0,cluster_0,"peak_forecast_time_series_sir_model_fitting
+mobility_npis_movement_reopening_human_mobility
+us_state_states_united_states_density","Assessment of the outbreak risk, mapping and infestation behavior of COVID-19: Application of the autoregressive and moving average (ARMA) and polynomial models
+Contextualizing covid-19 spread: a county level analysis, urban versus rural, and implications for preparing for the next wave","Impact of virus testing on COVID-19 case fatality rate: estimate using a fixed-effects model
+The COVID-19 Pandemic Predominantly Hits Poor Neighborhoods, or does it? Evidence from Germany"
+1,cluster_1,"mutations_genome_sequences_strains_genomes
+humans_species_mers-cov_animals_bat
+sars-cov_viruses_coronaviruses_rna_molecular","Adaptive Invariance for Molecule Property Prediction
+Analysis of SARS-CoV-2 RNA-Sequences by Interpretable Machine Learning Models","COVID-3D: An online resource to explore the structural distribution of genetic variation in SARS-CoV-2 and its implication on therapeutic development
+The modelling of COVID19 pathways sheds light on mechanisms,
+  opportunities and on controversial interpretations of medical treatments. v2"
+2,cluster_2,"rt-qpcr_laboratories_dna_reagents_amplification
+antibodies_antibody_igg_elisa_igm
+detection_rapid_screening_sensitivity_detect","Neutralizing Antibodies Responses to SARS-CoV-2 in COVID-19 Inpatients and Convalescent Patients
+Neutralizing Antibodies Responses to SARS-CoV-2 in COVID-19 Inpatients and Convalescent Patients","Evaluation of serological tests for SARS-CoV-2: Implications for serology testing in a low-prevalence setting
+Optimization of SARS-CoV-2 detection by RT-QPCR without RNA extraction"
+3,cluster_3,"drugs_drug_therapeutic_antiviral_vitro
+cells_genes_host_cell_mechanisms
+mice_ifn_ibv_translation_cultures","Identification of potential treatments for COVID-19 through artificial intelligence-enabled phenomic analysis of human cells infected with SARS-CoV-2
+Screening of Therapeutic Agents for COVID-19 using Machine Learning and
+  Ensemble Docking Simulations","Inhibition of the replication of SARS-CoV-2 in human cells by the FDA-approved drug chlorpromazine
+Lack of association between genetic variants at ACE2 and TMPRSS2 genes involved in SARS-CoV-2 infection and human quantitative phenotypes"
+4,cluster_4,"images_deep_learning_image_segmentation_ct_images
+dataset_datasets_classification_training_trained
+shared_scientists_sharing_web_opportunities","Auxiliary Signal-Guided Knowledge Encoder-Decoder for Medical Report
+  Generation
+Improving performance of CNN to predict likelihood of COVID-19 using
+  chest X-ray images with preprocessing algorithms","Are you wearing a mask? Improving mask detection from speech using
+  augmentation by cycle-consistent GANs
+CODA-19: Reliably Annotating Research Aspects on 10,000+ CORD-19
+  Abstracts Using Non-Expert Crowd"
+5,cluster_5,"scenarios_simulation_simulations_stochastic_mathematical_model
+constraints_school_closures_slower_ro_explains
+model_models_parameters_predictions_uncertainty","A new design of an adaptive model of infectious diseases based on artificial intelligence approach: monitoring and forecasting of COVID-19 epidemic cases
+COVID-19 Pandemic Prediction for Hungary: A Hybrid Machine Learning Approach","On Data-Driven Management of the COVID-19 Outbreak in South Africa
+Metapopulation network models for understanding, predicting and managing
+  the coronavirus disease COVID-19"
+6,cluster_6,"social_media_twitter_tweets_topics_content
+contact_tracing_privacy_app_apps_smartphone
+knowledge_online_crisis_towards_society","Sense and Sensibility: Characterizing Social Media Users Regarding the
+  Use of Controversial Terms for COVID-19
+What are We Depressed about When We Talk about COVID19: Mental Health
+  Analysis on Tweets Using Natural Language Processing","COVID-19 (SARS-CoV-2) Ventilator Resource Management Using a Network Optimization Model and Predictive System Demand
+How Reliable is Smartphone-based Electronic Contact Tracing for
+  COVID-19?"
+7,cluster_7,"china_wuhan_february_january_chinese
+secondary_symptom_onset_incubation_period_household_households
+africa_south_africa_nigeria_elimination_hd","A score-based risk model for predicting severe COVID-19 infection as a key component of lockdown exit strategy
+A score-based risk model for predicting severe COVID-19 infection as a key component of lockdown exit strategy","Analysis of epidemiological characteristics of coronavirus 2019 infection and preventive measures in Shenzhen China: a heavy population city
+In-Ear SpO2: A Tool for Wearable, Unobtrusive Monitoring of Hypoxaemia in COVID-19"
+8,cluster_8,"masks_mask_respirators_filter_decontamination
+air_environmental_surfaces_aerosol_breathing
+testing_tests_pooling_testing_capacity_group_testing","A novel high specificity COVID-19 screening method based on simple blood exams and artificial intelligence
+Pooling RT-PCR or NGS samples has the potential to cost-effectively generate estimates of COVID-19 prevalence in resource limited environments","Effects of temperature on COVID-19 transmission
+Can N95 respirators be reused after disinfection? And for how many times?"
+9,cluster_9,"china_wuhan_february_january_chinese
+lockdown_restrictions_social_distancing_measures_intensity_mitigation
+estimate_estimated_estimates_estimation_delay","Predicting the epidemic trend of COVID-19 in China and across the world using the machine learning approach
+Predictions of 2019-nCoV Transmission Ending via Comprehensive Methods","A Covid-19 case mortality rate without time delay systematics
+A scenario modeling pipeline for COVID-19 emergency planning"
+10,cluster_10,"research_published_literature_search_articles
+meta-analysis_pooled_searched_systematic_review_rr_ci
+studies_evidence_review_heterogeneity_quality","On the Generation of Medical Dialogues for COVID-19
+Coronavirus Disease 2019 (COVID-19): An Evidence Map of Medical Literature","PROGNOSTIC FACTORS FOR CLINICAL COURSE OF PATIENTS WITH COVID-19: PROTOCOL FOR A RAPID LIVING SYSTEMATIC REVIEW
+Covid-19 pandemic and the unprecedented mobilisation of scholarly
+  efforts prompted by a health crisis: Scientometric comparisons across SARS,
+  MERS and 2019-nCov literature"
+11,cluster_11,"scenarios_simulation_simulations_stochastic_mathematical_model
+lockdown_restrictions_social_distancing_measures_intensity_mitigation
+model_models_parameters_predictions_uncertainty","Novel Spatiotemporal Feature Extraction Parallel Deep Neural Network for Forecasting Confirmed Cases of Coronavirus Disease 2019
+Worldwide and Regional Forecasting of Coronavirus (Covid-19) Spread using a Deep Learning Model","Social distancing strategies for curbing the COVID-19 epidemic
+Impact of Governmental interventions on epidemic progression and workplace activity during the COVID-19 outbreak"
+12,cluster_12,"protein_proteins_spike_protein_binding_structural
+rbd_neutralizing_antibodies_recombinant_receptor_binding_domain_rbd_neutralization
+replication_conserved_nsp_orf_motif","SUPER RESOLUTION MICROSCOPY AND DEEP LEARNING IDENTIFY ZIKA VIRUS REORGANIZATION OF THE ENDOPLASMIC RETICULUM
+Personalized workflow to identify optimal T-cell epitopes for
+  peptide-based vaccines against COVID-19","SARS-CoV-2 Encodes a PPxY Late Domain Motif that is Known to Enhance 1 Budding and Spread in Enveloped RNA Viruses
+SARS-CoV-2 mutations and where to find them: An in silico perspective of structural changes and antigenicity of the Spike protein"
+13,cluster_13,"temperature_climate_temperatures_weather_pm
+evolution_parameter_apply_give_constant
+model_models_parameters_predictions_uncertainty","Effect of Temperature on the Transmission of COVID-19: A Machine Learning Case Study in Spain
+Analysis of the COVID-19 pandemic by SIR model and machine learning
+  technics for forecasting","A two-wave epidemiological model of COVID-19 outbreaks using MS-Excel(R)
+Covid-19: Data analysis of the Lombardy region and the provinces of
+  Bergamo and Brescia"
+14,cluster_14,"inhibitors_compounds_inhibitor_molecules_mpro
+drugs_drug_therapeutic_antiviral_vitro
+-fold_hiv_rdrp_incorporated_polymerase","Navigating Chemical Space By Interfacing Generative Artificial Intelligence and Molecular Docking
+Potentially highly potent drugs for 2019-nCoV","The crystal structure of COVID-19 main protease in complex with an inhibitor N3
+In Silico Screening of Some Naturally Occurring Bioactive Compounds
+  Predicts Potential Inhibitors against SARS-COV-2 (COVID-19) Protease"
+15,cluster_15,"immune_immune_response_cd_activation_immunological
+il-_ards_inflammation_inflammatory_acute_respiratory_distress_syndrome
+antibodies_antibody_igg_elisa_igm","Proteomic and Metabolomic Characterization of COVID-19 Patient Sera
+Proteomic and Metabolomic Characterization of COVID-19 Patient Sera","Highly pathogenic coronavirus N protein aggravates lung injury by MASP-2-mediated complement over-activation
+T-cell hyperactivation and paralysis in severe COVID-19 infection revealed by single-cell analysis"
+16,cluster_16,"expression_tissue_gene_expression_tissues_ace_tmprss
+cells_genes_host_cell_mechanisms
+ace_receptor_entry_expressed_tmprss",Profiling ACE2 expression in colon tissue of healthy adults and colorectal cancer patients by single-cell transcriptome analysis,"Background mechanisms of olfactory dysfunction in COVID-19: expression of ACE2, TMPRSS2, and Furin in the nose and olfactory bulb in human and mice
+Assembly of an integrated human lung cell atlas reveals that SARS-CoV-2 receptor is co-expressed with key elements of the kinin-kallikrein, renin-angiotensin and coagulation systems in alveolar cells"
+17,cluster_17,"pressure_flow_ventilator_ventilators_ventilation
+women_pregnant_women_delivery_pregnancy_maternal
+concentration_concentrations_dose_chloroquine_sarscov","Augmented Curation of Unstructured Clinical Notes from a Massive EHR
+  System Reveals Specific Phenotypic Signature of Impending COVID-19 Diagnosis
+Clinical diagnosis of 8274 samples with 2019-novel coronavirus in Wuhan","Placental pathology in COVID-19
+Detection dogs as a help in the detection of COVID-19: Can the dog alert on COVID-19 positive persons by sniffing axillary sweat samples? Proof-of-concept study"
+18,cluster_18,"medical_staff_suspect_gender_differences_td_gp
+workers_software_workforce_workplace_employees
+knowledge_online_crisis_towards_society","Leveraging Data Preparation, HBase NoSQL Storage, and HiveQL Querying
+  for COVID-19 Big Data Analytics Projects
+Detecting fake news for the new coronavirus by reasoning on the Covid-19
+  ontology","The prevalence and influencing factors for anxiety in medical workers fighting COVID-19 in China: A cross-sectional survey
+Behaviors and attitudes in response to the COVID-19 pandemic: Insights from a cross-national Facebook survey"
+19,cluster_19,"specimens_swabs_collection_swab_saliva
+diagnosis_rt-pcr_pcr_suspected_sensitivity_specificity
+rt-qpcr_laboratories_dna_reagents_amplification",An Extended Laboratory Validation Study and Comparative Performance Evaluation of the Abbott ID NOW COVID-19 Assay in a Coastal California Tertiary Care Medical Center,"Clinical Performance of SARS-CoV-2 Molecular Testing
+Saliva Sample as a Non-Invasive Specimen for the Diagnosis of Coronavirus Disease-2019 (COVID-19): a Cross-Sectional Study"
+20,cluster_20,"clinical_trials_trials_hydroxychloroquine_remdesivir_hcq
+pneumonia_normal_ct_imaging_chest_ct
+patients_enrolled_follow-up_clinical_laboratory","Detection of COVID-19 Infection from Routine Blood Exams with Machine Learning: a Feasibility Study
+Development and utilization of an intelligent application for aiding COVID-19 diagnosis","Estimating Survival of Hospitalized COVID-19 Patients from Admission Information
+Analysis of factors associated early diagnosis in coronavirus disease 2019 (COVID-19)"
+21,cluster_21,"counties_population_density_county_income_mexico
+deaths_death_rates_weekly_death_rate_attributed
+cfr_true_across_countries_ifr_bias",News from the front: Excess mortality and life expectancy in two major epicentres of the COVID-19 pandemic in Italy,"Monitoring trends and differences in COVID-19 case fatality rates using decomposition methods: Contributions of age structure and age-specific fatality
+Who is more susceptible to Covid-19 infection and mortality in the States?"
+22,cluster_22,"survey_respondents_students_questionnaire_education
+mental_health_anxiety_psychological_stress_distress
+knowledge_online_crisis_towards_society","Public Willingness to Get Vaccinated Against COVID-19: How AI-Developed
+  Vaccines Can Affect Acceptance
+Public Willingness to Get Vaccinated Against COVID-19: How AI-Developed
+  Vaccines Can Affect Acceptance","Social Isolation as a predictor for mortality: Implications for COVID-19 prognosis
+Depression and loneliness during COVID-19 restrictions in the United States, and their associations with frequency of social and sexual connections"
+23,cluster_23,"il-_ards_inflammation_inflammatory_acute_respiratory_distress_syndrome
+·___findings__declaration_interests_authors___interpretation___methods
+patients_enrolled_follow-up_clinical_laboratory","Clinical efficacy of intravenous immunoglobulin therapy in critical patients with COVID-19: A multicenter retrospective cohort study
+Clinical Efficacy of Intravenous Immunoglobulin Therapy in Critical Patients with COVID-19: A Multicenter Retrospective Cohort Study","Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients
+Clinical Characteristics of 5732 Patients with 2019-nCoV Infection"
+24,cluster_24,"hcws_working_staff_physicians_hcw
+guidelines_recommendations_procedures_surgical_surgery
+care_service_visits_diagnoses_inpatient","Dreaming during the Covid-19 pandemic: Computational assessment of dream reports reveals mental suffering associated with negative feelings and contagion fear
+Healthcare Worker COVID-19 Cases in Ontario, Canada: A Cross-sectional Study","COVID-19 Lockdown in a Kenyan Informal Settlement: Impacts on Household Energy and Food Security
+Knowledge and practice of preventive measures against COVID-19 infection among pregnant women in a low-resource African setting"
+25,cluster_25,"patients_enrolled_follow-up_clinical_laboratory
+association_associations_adjusted_socioeconomic_increased_risk
+risk_factors_comorbidities_hypertension_clinical_outcomes_diabetes","CLINICAL CHARACTERISTICS AND PROGNOSTIC FACTORS FOR ICU ADMISSION OF PATIENTS WITH COVID-19 USING MACHINE LEARNING AND NATURAL LANGUAGE PROCESSING
+CLINICAL CHARACTERISTICS AND PROGNOSTIC FACTORS FOR ICU ADMISSION OF PATIENTS WITH COVID-19 USING MACHINE LEARNING AND NATURAL LANGUAGE PROCESSING","Relationship Between Blood Group and Risk of Infection and Death in COVID-19: a live Meta-Analysis
+AKI during COVID-19 infection: low incidence, high risk of death"
+26,cluster_26,"admission_hospitalization_cohort_hospitalized_hospitalized_patients
+tocilizumab_plus_primary_outcome_receive_control_group
+patients_enrolled_follow-up_clinical_laboratory",,"Patient trajectories and risk factors for severe outcomes among persons hospitalized for COVID-19 in the Maryland/DC region
+30-day mortality in patients hospitalized with COVID-19 during the first wave of the Italian epidemic: a prospective cohort study"
+27,cluster_27,"prognosis_markers_d-dimer_lymphocytes_crp
+patients_enrolled_follow-up_clinical_laboratory
+fever_clinical_characteristics_discharged_clinical_features_clinical_symptoms","Epidemiological and clinical features of 291 cases with coronavirus disease 2019 in areas adjacent to Hubei, China: a double-center observational study
+Validation of reported risk factors for disease classification and prognosis in COVID-19: a descriptive and retrospective study","The clinical characteristics of COVID-19: a retrospective analysis of 104 patients from the outbreak on board the Diamond Princess cruise ship in Japan
+Clinical Characteristics of Coronavirus Disease 2019 in Hainan, China"
