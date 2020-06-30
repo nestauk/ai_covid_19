@@ -2,6 +2,7 @@ import numpy as np
 import re
 import random
 from toolz.curried import *
+from altair_saver import save
 
 def preview(df):
     '''Previews a dataframe
@@ -54,3 +55,7 @@ def get_examples(_list,values):
         return(random.choices(_list,k=len(_list)))
     else:
         return(random.choices(_list,k=values))
+
+def save_altair(fig,name,path,driver):
+    save(fig,f"{path}/{name}.png",method='selenium',webdriver=driver,
+         scale_factor=5)

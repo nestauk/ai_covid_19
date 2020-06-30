@@ -22,7 +22,8 @@ dependencies:
 
   - pip:
     # Put any pip dependencies here (and no conda ones anywhere below)
-
+    - cord-19-tools
+    - altair_saver
   # Tooling requirements (don't edit)
     - tqdm
     - pyyaml

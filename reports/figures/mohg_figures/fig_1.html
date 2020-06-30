@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-a05106399fa6623f78d2c9fa484d6987"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "is_ai", "title": "Paper category"}, "order": {"type": "nominal", "field": "is_ai", "sort": "ascending"}, "tooltip": [{"type": "nominal", "field": "value_label"}], "x": {"type": "quantitative", "field": "value", "title": "% of all papers in category"}, "y": {"type": "nominal", "field": "is_covid", "title": ""}}, "transform": [{"calculate": "(100 * datum.value)", "as": "value"}], "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-a05106399fa6623f78d2c9fa484d6987": [{"is_covid": "Not COVID_19", "is_ai": "Not AI", "value": 0.8727724052334902, "value_label": "87.28%"}, {"is_covid": "COVID_19", "is_ai": "Not AI", "value": 0.9322685595977521, "value_label": "93.23%"}, {"is_covid": "Not COVID_19", "is_ai": "AI", "value": 0.1272275947665098, "value_label": "12.72%"}, {"is_covid": "COVID_19", "is_ai": "AI", "value": 0.06773144040224785, "value_label": "6.77%"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
