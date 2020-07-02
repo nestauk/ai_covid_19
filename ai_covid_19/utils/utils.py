@@ -3,6 +3,16 @@ import re
 import random
 from toolz.curried import *
 from altair_saver import save
+from selenium import webdriver
+from dotenv import load_dotenv,find_dotenv
+import os
+
+def altair_visualisation_setup():
+    #Set up the driver to save figures as png
+
+    load_dotenv(find_dotenv())
+    driv = webdriver.Chrome(os.getenv('chrome_driver_path'))
+    return(driv)
 
 def preview(df):
     '''Previews a dataframe
